@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "168643096197",
+    "project_id": "react-native-worktest",
+    "storage_bucket": "react-native-worktest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168643096197:android:2b1f9d3ac6a8e3d8a6c3ec",
+        "android_client_info": {
+          "package_name": "com.rnworktest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168643096197-gkemefigipbg0o3ktk42bhk86hvdk27c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpkP4EkqK5Zexb3EbeCblP_B5RhpZn4mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168643096197-gkemefigipbg0o3ktk42bhk86hvdk27c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
