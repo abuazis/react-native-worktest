@@ -3,6 +3,7 @@
 // [POST] https://fcm.googleapis.com/fcm/send
 {
     "to": "", // token device perangkat
+    "data": {}, // jika perlu ada data yang dikirim
     "notification": {
         "title": "Title Notification", // judul notifikasi
         "body": "body notification", // body notifikasi

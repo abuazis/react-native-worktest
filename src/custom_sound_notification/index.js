@@ -17,6 +17,7 @@ async function onAppBootstrap() {
   // Put on "to" request on postman
   console.log(`Your token device : ${token}`);
 
+  // Init notif channel
   await notifee.createChannel({
     id: 'custom-sound',
     name: 'Channel with custom sound',
@@ -32,8 +33,10 @@ export default function Index() {
     console.log(message);
   }
 
-  // Listen background event (firebase messaging)
+  // Listen foreground notification, but will be not showed
   messaging().onMessage(onMessageReceived);
+
+  // Listen background event (firebase messaging)
   messaging().setBackgroundMessageHandler(onMessageReceived);   
 
   return <Text>Selamat Datang Di Lab Custom Sound Notifications</Text>
